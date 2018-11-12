@@ -14,8 +14,8 @@ set :puma_workers,    0
 
 # Default value for :format is :airbrussh.
 # set :format, :airbrussh
-set :assets_manifests, ['app/assets/config/manifest.js']
-set :rails_assets_groups, :assets
+# set :assets_manifests, ['app/assets/config/manifest.js']
+#  set :rails_assets_groups, :assets
 
 
 # You can configure the Airbrussh format using :format_options.
@@ -30,7 +30,7 @@ set :stage,           :production
 
 # Default deploy_to directory is /var/www/my_app_name
 # set :deploy_to,       "/home/#{fetch(:user)}/apps/#{fetch(:application)}"
-set :deploy_to, "/var/www/deployment_demo/app"
+set :deploy_to, "/var/www/deployment_demo"
 set :puma_bind,       "unix://#{shared_path}/tmp/sockets/#{fetch(:application)}-puma.sock"
 set :puma_state,      "#{shared_path}/tmp/pids/puma.state"
 set :puma_pid,        "#{shared_path}/tmp/pids/puma.pid"
