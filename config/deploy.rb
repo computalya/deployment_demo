@@ -15,6 +15,7 @@ set :puma_workers,    0
 # Default value for :format is :airbrussh.
 # set :format, :airbrussh
 set :assets_manifests, ['app/assets/config/manifest.js']
+set :rails_assets_groups, :assets
 
 
 # You can configure the Airbrussh format using :format_options.
