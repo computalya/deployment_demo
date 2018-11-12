@@ -23,7 +23,7 @@ set :puma_workers,    0
 set :pty, true
 set :use_sudo,        false
 set :stage,           :production
-set :deploy_via,      :remote_cache
+# set :deploy_via,      :remote_cache
 
 # Default deploy_to directory is /var/www/my_app_name
 # set :deploy_to,       "/home/#{fetch(:user)}/apps/#{fetch(:application)}"
