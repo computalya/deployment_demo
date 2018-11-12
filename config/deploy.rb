@@ -9,7 +9,6 @@ set :user,            'deploy'
 set :puma_threads,    [4, 16]
 set :puma_workers,    0
 set :normalize_asset_timestamps, %w{public/assets public/images}.join(' ')
-set :normalize_asset_timestamps, %w{public/assets public/images}.join(' ')
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 
