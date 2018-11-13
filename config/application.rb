@@ -29,5 +29,6 @@ module DeploymentDemo
 
     # Don't generate system test files.
     config.generators.system_tests = nil
+    config.action_dispatch.tld_length = 1
   end
 end
